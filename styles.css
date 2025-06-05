@@ -1,0 +1,69 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+header {
+    background-color: #5a2d0c;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.contact-info p {
+    margin: 5px 0;
+}
+
+.contact-info a {
+    color: #ffd700;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+.cake-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.cake-gallery img {
+    width: 45%;
+    margin: 10px 0;
+    border-radius: 10px;
+}
+
+.occasions {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.occasions h2 {
+    color: #5a2d0c;
+}
+
+.order {
+    background-color: #ffd700;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+footer {
+    background-color: #5a2d0c;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
